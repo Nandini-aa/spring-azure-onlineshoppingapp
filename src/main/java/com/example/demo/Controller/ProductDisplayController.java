@@ -23,11 +23,11 @@ public class ProductDisplayController {
 	@Autowired
 	private ProductDisplayService service;
 	
-//	//http:localhost:9090/welcome
-//	@GetMapping("/welcome")
-//	public String welcome() {
-//		return "Welcome this is online shopping app";
-//	}
+     //http:localhost:9090/welcome
+@GetMapping("/welcome")
+public String welcome() {
+return "Welcome this is online shopping app";
+}
 	
 	//view products
 	@CrossOrigin(origins = "*")
